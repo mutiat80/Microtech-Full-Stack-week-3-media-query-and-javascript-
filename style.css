@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(232, 134, 186);
+    /* margin: 1px; */
+    color: black;
+}
+.h1{
+    color: oklab(82.35% -0.04214 0.098);
+    text-align: left;
+    font-family: cursive;
+    font-size: 15px;
+    border: 2px solid rgb(66, 2, 63);
+    width: 170px;
+    background-color: rgb(14, 96, 220);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+marquee {
+    background-color:rgb(210, 141, 229);
+    color:rgb(66, 2, 63);
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-family:cursive 
+
+}   
+
+.nav {
+    background-color: rgb(27, 5, 221)
+    padding: 10px;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    font-family: cursive;
+    font-size: 15px;
+    }
+
+.topic {
+    color: purple;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+    
+.bar{
+    display: flex;
+    justify-content:space-between;
+
+
+    
+}
+.pop{
+    color: #069a06;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+
+}
+
+.pic{
+    display: block;
+    margin: 0 auto;
+    border-radius: 80%;
+    margin-bottom: 30px;
+}
+
+
+p{
+    text-align: left;
+    font-size: 17px;
+    line-height: 1.5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 20px;
+}
+
+ {
+   text-align: right;
+   align-items: right;
+   
+}
+
+h2{
+text-align: center;
+color: rgb(189, 48, 48);
+text-decoration:underline;
+}
+
+.list{
+    text-align: left;
+    margin-left: 40px;
+    color: hsl(178, 73%, 29%);
+    font-weight: 600;
+}
+
+.list2{
+    margin-left: 40px;
+}
+
+.hobby1{
+    
+}
+
+.back{
+    text-align: right;
+}
+
+.sub{
+    color: rgb(231, 231, 239);
+    background-color: rgb(50, 3, 203);
+    border: 2px solid rgb(0, 128, 98);
+    width: 100px;
+    border-radius: 15px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.vid{
+ align-items: center;
+ justify-content: center;
+ display: flex;
+
+}
+
+.form{
+    margin-left: 20px;
+}
+
+
+.table{
+    margin: 20px;
+    color:#06269a
+    
+   
+}
+
+.section1{
+    background-color: rgba(193, 72, 144, 0.619);
+}
+
+
+.footer-bottom{
+    background-color:#c0177c9e;
+    width: auto;
+    height: 10ch;
+    padding: 10px;
+    display: flex;
+    justify-content:center;
+}
+
+.friend{
+    color: #ff0033;
+    font-size: ;
+    font-weight: 800;
+}
+    
+.hobb{
+    color: rgb(9, 86, 110);
+}
+
+
+.move{
+    display: flex;
+    /* flex-direction: end; */
+    justify-content: flex-end;
+    margin: 20px;
+    text-align: right;
+
+}
+
+
+.hobby3{
+    margin-top: 30px;
+}
+
+.hero{
+    text-align: center;
+}
+
+cactus{
+    color: aliceblue;
+}
+
+.reading{
+
+ 
+  align-items: center;
+ justify-content: center;
+ display: flex;
+}
+
+
+
+.baking{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+
+}
+
+.coding{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+
+}
+
+.traveling{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+}
+
+.follow{
+
+    background-color:#ec5bb29e  
+       
+
+}
+
+.bobby1{
+    color: green;
+    text-decoration: none;
+
+}
+
+.nav2{
+    
+    padding: 15px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  body {
+    background-color: rgb(225, 221, 206);
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #18c8c2255, 68, 0);
+    color: white;
+  }
+}
+
+/* For devices with a minimum width of 992px (Large) */
+@media screen and (min-width: 992px) {
+  body {
+    background-color: rgb(210, 140, 188);
+    color: black;
+  }
+}
